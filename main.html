@@ -7,8 +7,7 @@
 	</head>
 	<body>
 		<!-- Button trigger modal -->
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Sign Up
 </button>
 
@@ -18,7 +17,8 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Create Account</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+		<button type="button" class="close" data-bs-dismiss="modal" style="border:none; background:none;">X</button>
       </div>
       <div class="modal-body">
         <form>
@@ -35,11 +35,9 @@
     <label for="exampleInputPassword2" class="form-label">Confirm Password</label>
     <input type="password" class="form-control" placeholder="Confirm Password" id="exampleInputPassword2">
   </div>
+  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+  <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-      </div>
-		<div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Submit</button>
       </div>
     </div>
   </div>
